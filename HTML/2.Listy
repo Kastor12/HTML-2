@@ -1,0 +1,12 @@
+< DOCTYPE html>
+<html>
+<meta charlset="utf-8">
+<title>Listy</title>
+<h3>Lista uporządkowana<h3>
+<ol>
+  <li>Polska</li>
+  <li>Anglia</li>
+  <li>Włochy</li>
+  <li>Grecja</li>
+  
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html> <!--Formularze-->
+<html>
+    <head>
+<meta charlset="utf-8">
+<title>Formularze</title>
+    <link rel="stylesheet" href="style.css/style.form.css">
+    </head>
+<body>
+    <!--metod post lub get-->
+    
+    <form method="post" action="#">
+        <label for="Login"input type="text" name="login"></label>
+        
+        <br>
+        
+        <label>Hasło</label>
+        <input type="password" name="pass">
+            <input type="submit"value="Wyślij">
+        </form>  
+    
+    
+    <p>Wybory 2018</p>
+    <fieldset>
+        <legend>Wybory</legend>
+    <from id="glosowanie" action="Dziękujemy.html">
+     <label>Nik</label>
+        <input type="text" name="nick">
+    <br>
+    <input type="radio" name="wybór">Kowal<br>
+    <input type="radio" name="wybór">Nowak<br> 
+    <input type="radio" name="wybór">Kwiatkoski<br>
+    <input type="radio" name="wybór">Bolek<br>
+  <!--takie same atrybuty name a inne atrybuty value-->      
+<input type="submit" value="Wyślij">
+        </from>
+    </fieldset>
+    
+    
+    
+    <fieldset>
+    <form>
+    
+    <label>  imię</label>
+    <input type="text" name="imię" id="imię" placeholder="imię" title="Podaj swoje Imię" patern="[a-z][2,15]" required> <br>
+       <label>Nazwisko</label> 
+        <input type="text" name="Nazwisko" id="Nazwisko" placeholder="Nazwisko"> <br> 
+        <label>mail</label>
+           <input type="email" name="mail" id="mail"> <br> 
+        
+        <input type="submit" name="przycisk" value="Zatwierdz">
+        <h4>Narodowość </h4>
+        <input type="radio" name="kraj" value="Polska" checked>Polska<br>
+        <input type="radio" name="kraj" value="Bialorus" checked>Bialorus<br>
+        <input type="radio" name="kraj" value="Hiszpania" checked>Hiszpania<br>
+           <input type="submit" name="przycisk" value="Zatwierdz"/>
+                                                                
+    </form>
+    </fieldset> 
+    </body>
+</html>
